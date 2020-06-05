@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() 
+{
+char ch;        
+char str[100];
+char sen[122];
+scanf("%c%*c",&ch);
+scanf("%s%*c",&str);
+scanf("%[^\n]",&sen);
+printf("%c\n",ch);
+printf("%s\n",str);
+printf("%s",sen);
+return 0;
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+}
